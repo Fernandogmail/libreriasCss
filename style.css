@@ -1,0 +1,230 @@
+body{
+	background-color: #E5CCFF;
+}
+
+.logo-img {
+  width: 10%;
+}
+.header {
+  background-color: #0080FF;
+  min-height: 0.5%;
+  border: none;
+}
+
+.redes-sociales {
+  margin-top: 90px;
+  float: right;
+  padding-right: 10px;
+
+}
+.img-social {
+  width: 40px;
+  height: 40px;
+  border-radius: 6px;
+  box-shadow:  1px 0px 0px 2px  #CCCCCC;
+  margin: 4px;
+}
+.img-social:hover{
+	width: 50px;
+	height: 50px;
+	background: #009966;
+}
+.imgUsuario{
+	width: 50px;
+	float: right;
+	padding-top: 20px;
+}
+.navBar{
+	padding-left: 10px;
+	align-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:#E5CCFF;
+}
+.itemNav{
+	border: solid blue 1px;
+	border-radius: 20px;
+	padding: 15px;
+	height: 50px;
+	text-align: center;
+	background-color: #0080FF;
+
+		
+	}
+.itemNav:hover{
+	background-color: #99CCFF;
+	color: blue;
+	font-weight: bold;
+}
+a:hover{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+}
+a{
+	color:#ffffff;
+	font-size: 100%;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+h1 small{
+	color:#0033CC;
+	font-weight: bold;
+	font-size: 100%
+}
+p{
+	color: #003366;
+}
+
+.container{
+	padding-top: 10px;
+	float: left;
+	margin-left: 10px;
+	text-align: justify;
+	vertical-align: center;
+	background-color: 	#E6FFCC;
+}
+.imgContent{
+	max-width: 300%;
+	height: auto;
+}
+.textarea{
+	padding-left: 10px;
+	border-color: #9999FF;
+	font-size: 20px;
+	display: inline;
+	color:#339900;
+	font-weight: bold;
+	width: 100%;
+}
+
+.busqueda{
+	width: 100%;
+	background-color: #E6FFCC;
+	float: right;
+	padding-right: 10px;
+	height: 79em;
+	padding-top: 10px;
+}
+#busqueda{
+	width: 90%;
+	border-radius: 10px;
+	height: 50px;
+	font-size: 150%;
+	color: #339900;
+	font-weight: bold;
+}
+#busqueda:focus{
+	background-color:#FFFF99;
+}
+.textarea:focus{
+	background-color:#FFFF99;
+}
+.boton>input{
+	padding-top: 10px;
+	height: 70px;
+	font-size: 150%;
+	border-radius: 12px;
+	background-color: #CCFF99;
+	text-transform: capitalize;
+	color: #003366;
+}
+.boton>input:hover{
+	background-color: #99CCFF;
+	font-weight: bold;
+	height: 80px;
+	border-radius: 20px;
+}
+.boton:hover{
+	box-shadow: 3px 3px 3px 3px #CCCCCC;
+	border-radius: 20px;
+}
+@media (min-width: 100px) and (max-width: 300px){
+	.imgContent{
+		max-width: 100%;
+		height: auto;
+	}
+
+	
+}
+@media all and (max-width:500px){
+	.imgUsuario{
+		visibility: hidden;
+	}
+	.textarea{
+		font-size: 30px;
+
+	}
+	#iconoOculto{
+		visibility: hidden;
+	}
+	.logo-img{
+		width: 50%;
+		padding-left: 70px;
+		padding-top: 50px;
+	}
+	.header{
+		align-content: center;
+
+	}
+	.redes-sociales{
+		padding-left: 40px;
+	}
+	h1 small{
+		font-size: 20px;
+	}
+	.textarea{
+		height: 10px;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	#busqueda{
+		font-size: 100%;
+	}
+	.img-social{
+		width: 30px;
+		height: 30px;
+	}
+	.boton>input{
+		font-size: 110%;
+		height: 40px;
+	}
+	.busqueda{
+		height: 100%;
+	}
+	.img-social:hover{
+	width: 40px;
+	height: 40px;
+	background: #009966;
+}
+.boton>input:hover{
+	background-color: #99CCFF;
+	font-weight: bold;
+	height: 50px;
+	border-radius: 20px;
+
+}
+.imgContent{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media only screen and (orientation: portrait){
+	.imgContent{
+		max-width: 100%;
+		height: auto;
+	}
+	.busqueda{
+		width: 100%;
+	}
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ .imgContent{
+		max-width: 100%;
+		height: auto;
+	}
+  
+}
